@@ -1,0 +1,81 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3752354200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Add customer",
+        "description": "",
+        "id": "to-add-customer-plan;add-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 653379400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5092046600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user should be telecom home page and click the add customer",
+            "match": {
+              "location": "NewAdd.the_user_should_be_telecom_home_page_and_click_the_add_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2057021000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user provide valid details",
+            "match": {
+              "location": "NewAdd.the_user_provide_valid_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91670000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user validate customer id is generated",
+            "match": {
+              "location": "NewAdd.the_user_validate_customer_id_is_generated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To add customer plan",
+    "description": "  I want to use this template for my feature file",
+    "id": "to-add-customer-plan",
+    "keyword": "Feature",
+    "uri": "C:/Users/Bharath Koye/eclipse-workspace/New folder/TestProject/src/test/resources/features/New.feature",
+    "tags": []
+  }
+]
