@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3752354200,
+              "duration": 3521476300,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 653379400,
+              "duration": 668393800,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5092046600,
+              "duration": 5325426100,
               "status": "passed"
             },
             "line": 7,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 2057021000,
+              "duration": 2003523600,
               "status": "passed"
             },
             "line": 8,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 91670000,
+              "duration": 82885200,
               "status": "passed"
             },
             "line": 9,
@@ -76,6 +76,85 @@
     "id": "to-add-customer-plan",
     "keyword": "Feature",
     "uri": "C:/Users/Bharath Koye/eclipse-workspace/New folder/TestProject/src/test/resources/features/New.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2610407500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Add tariff plan",
+        "description": "",
+        "id": "to-add-tariff-plan;add-tariff-plan",
+        "after": [
+          {
+            "result": {
+              "duration": 660535100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5293187300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user should be telecom home page and click the tariff customer",
+            "match": {
+              "location": "AddTariffPlan.the_user_should_be_telecom_home_page_and_click_the_tariff_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 548901100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user provide valid tariff details",
+            "match": {
+              "location": "AddTariffPlan.the_user_provide_valid_tariff_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43697800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user validate tariff id is generated",
+            "match": {
+              "location": "AddTariffPlan.the_user_validate_tariff_id_is_generated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To add tariff plan",
+    "description": "  I want to use this template for my feature file",
+    "id": "to-add-tariff-plan",
+    "keyword": "Feature",
+    "uri": "C:/Users/Bharath Koye/eclipse-workspace/New folder/TestProject/src/test/resources/features/Tariff.feature",
     "tags": []
   }
 ]
