@@ -3,6 +3,7 @@ package com.objectRepository;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class Base {
 	static WebDriver driver;
@@ -19,6 +20,9 @@ public class Base {
 	}
 	public static void btnClick(WebElement element) {
 		element.click();
+	}
+	public static void selectValue(WebElement ele, String value) {
+		new Select(ele).selectByValue(value);
 	}
 	public static boolean txtDisplay(WebElement element) {
 		return element.isDisplayed();

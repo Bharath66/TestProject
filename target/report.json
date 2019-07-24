@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3521476300,
+              "duration": 3822708600,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 6,
-        "name": "Add customer",
+        "name": "Login for the Namashi website",
         "description": "",
-        "id": "to-add-customer-plan;add-customer",
+        "id": "namashi-ecommerce-website;login-for-the-namashi-website",
         "after": [
           {
             "result": {
-              "duration": 668393800,
+              "duration": 697759300,
               "status": "passed"
             },
             "match": {
@@ -34,127 +34,79 @@
         "steps": [
           {
             "result": {
-              "duration": 5325426100,
+              "duration": 10890594800,
               "status": "passed"
             },
             "line": 7,
-            "name": "The user should be telecom home page and click the add customer",
+            "name": "The user should be namashi home page",
             "match": {
-              "location": "NewAdd.the_user_should_be_telecom_home_page_and_click_the_add_customer()"
+              "location": "LoginNamashi.the_user_should_be_namashi_home_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2003523600,
+              "duration": 860264700,
               "status": "passed"
             },
             "line": 8,
-            "name": "The user provide valid details",
+            "name": "The user provide valid account details",
             "match": {
-              "location": "NewAdd.the_user_provide_valid_details()"
+              "location": "LoginNamashi.the_user_provide_valid_account_details(DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "uname",
+                  "pwd"
+                ]
+              },
+              {
+                "cells": [
+                  "bharath@gmail.com",
+                  "bharath12345"
+                ]
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 82885200,
+              "duration": 203700,
               "status": "passed"
             },
-            "line": 9,
-            "name": "The user validate customer id is generated",
+            "line": 11,
+            "name": "The user login validate customer or not",
             "match": {
-              "location": "NewAdd.the_user_validate_customer_id_is_generated()"
+              "location": "LoginNamashi.the_user_login_validate_customer_or_not()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
           }
         ]
       }
     ],
-    "name": "To add customer plan",
+    "name": "Namashi Ecommerce website",
     "description": "  I want to use this template for my feature file",
-    "id": "to-add-customer-plan",
+    "id": "namashi-ecommerce-website",
     "keyword": "Feature",
-    "uri": "C:/Users/Bharath Koye/eclipse-workspace/New folder/TestProject/src/test/resources/features/New.feature",
-    "tags": []
-  },
-  {
-    "line": 2,
-    "elements": [
+    "uri": "C:/Users/Bharath Koye/eclipse-workspace/New folder/TestProject/src/test/resources/features/NamashiLogin.feature",
+    "tags": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 2610407500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.method()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "Add tariff plan",
-        "description": "",
-        "id": "to-add-tariff-plan;add-tariff-plan",
-        "after": [
-          {
-            "result": {
-              "duration": 660535100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.method1()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5293187300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "The user should be telecom home page and click the tariff customer",
-            "match": {
-              "location": "AddTariffPlan.the_user_should_be_telecom_home_page_and_click_the_tariff_customer()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 548901100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "The user provide valid tariff details",
-            "match": {
-              "location": "AddTariffPlan.the_user_provide_valid_tariff_details()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 43697800,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "The user validate tariff id is generated",
-            "match": {
-              "location": "AddTariffPlan.the_user_validate_tariff_id_is_generated()"
-            },
-            "keyword": "Then "
-          }
-        ]
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
       }
-    ],
-    "name": "To add tariff plan",
-    "description": "  I want to use this template for my feature file",
-    "id": "to-add-tariff-plan",
-    "keyword": "Feature",
-    "uri": "C:/Users/Bharath Koye/eclipse-workspace/New folder/TestProject/src/test/resources/features/Tariff.feature",
-    "tags": []
+    ]
   }
 ]
